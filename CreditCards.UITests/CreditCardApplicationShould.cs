@@ -72,6 +72,7 @@ namespace CreditCards.UITests
             using (IWebDriver driver = new ChromeDriver())
             {
                 driver.Navigate().GoToUrl(HomeUrl);
+                driver.Manage().Window.Minimize(); // Prevent accidental mouse interaction with the carousel
                 DemoHelper.Pause();
 
                 WebDriverWait wait = 
