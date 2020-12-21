@@ -233,25 +233,25 @@ namespace CreditCards.UITests
             }
         }
 
-        //[Fact]
-        //[UseReporter(typeof(BeyondCompareReporter))]
-        //public void RenderAboutPage()
-        //{
-        //    using (IWebDriver driver = new ChromeDriver())
-        //    {
-        //        driver.Navigate().GoToUrl(AboutUrl);
+        [Fact]
+        [UseReporter(typeof(BeyondCompareReporter))]
+        public void RenderAboutPage()
+        {
+            using (IWebDriver driver = new ChromeDriver())
+            {
+                driver.Navigate().GoToUrl(AboutUrl);
 
-        //        ITakesScreenshot screenShotDriver = (ITakesScreenshot)driver;
+                ITakesScreenshot screenShotDriver = (ITakesScreenshot)driver;
 
-        //        Screenshot screenshot = screenShotDriver.GetScreenshot();
+                Screenshot screenshot = screenShotDriver.GetScreenshot();
 
-        //        screenshot.SaveAsFile("aboutpage.bmp", ScreenshotImageFormat.Bmp);
+                screenshot.SaveAsFile("aboutpage.bmp", ScreenshotImageFormat.Bmp);
 
-        //        FileInfo file = new FileInfo("aboutpage.bmp");
+                FileInfo file = new FileInfo("aboutpage.bmp");
 
-        //        Approvals.Verify(file);
-        //    }
-        //}
+                Approvals.Verify(file);
+            }
+        }
 
     }
 }
