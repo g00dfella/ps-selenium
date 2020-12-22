@@ -8,6 +8,7 @@ using ApprovalTests.Reporters;
 using ApprovalTests.Reporters.Windows;
 using System.IO;
 using ApprovalTests;
+using CreditCards.UITests.PageObjectModels;
 
 namespace CreditCards.UITests
 {
@@ -123,20 +124,19 @@ namespace CreditCards.UITests
         {
             using (IWebDriver driver = new ChromeDriver())
             {
-                driver.Navigate().GoToUrl(HomeUrl);
+                var homePage = new HomePage(driver);
+                homePage.NavigateTo();
+
                 DemoHelper.Pause();
-                
-                ReadOnlyCollection<IWebElement> tableCells =
-                    driver.FindElements(By.TagName("td"));
-                
-                Assert.Equal("Easy Credit Card", tableCells[0].Text);
-                Assert.Equal("20% APR", tableCells[1].Text);
+              
+                Assert.Equal("Easy Credit Card", homePage.Products[0].name);
+                Assert.Equal("20% APR", homePage.Products[0].interestRate);
 
-                Assert.Equal("Silver Credit Card", tableCells[2].Text);
-                Assert.Equal("18% APR", tableCells[3].Text);
+                Assert.Equal("Silver Credit Card", homePage.Products[1].name);
+                Assert.Equal("18% APR", homePage.Products[1].interestRate);
 
-                Assert.Equal("Gold Credit Card", tableCells[4].Text);
-                Assert.Equal("17% APR", tableCells[5].Text);
+                Assert.Equal("Gold Credit Card", homePage.Products[2].name);
+                Assert.Equal("17% APR", homePage.Products[2].interestRate);
             }
         }
 
