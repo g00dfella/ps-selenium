@@ -43,6 +43,7 @@ C:\Users\Slavik\source\repos\ps-Selenium\CreditCards.UITests\bin\Debug\EmptyFile
 C:\Users\Slavik\source\repos\ps-Selenium\CreditCards.UITests\bin\Debug\xunit.runner.visualstudio.testadapter.dll
 C:\Users\Slavik\source\repos\ps-Selenium\CreditCards.UITests\bin\Debug\xunit.runner.reporters.net452.dll
 C:\Users\Slavik\source\repos\ps-Selenium\CreditCards.UITests\bin\Debug\xunit.runner.utility.net452.dll
+C:\Users\Slavik\source\repos\ps-Selenium\CreditCards.UITests\bin\Debug\CreditCards.UITests.dll.config
 C:\Users\Slavik\source\repos\ps-Selenium\CreditCards.UITests\bin\Debug\CreditCards.UITests.dll
 C:\Users\Slavik\source\repos\ps-Selenium\CreditCards.UITests\bin\Debug\CreditCards.UITests.pdb
 C:\Users\Slavik\source\repos\ps-Selenium\CreditCards.UITests\bin\Debug\ApprovalTests.dll
@@ -80,4 +81,3 @@ C:\Users\Slavik\source\repos\ps-Selenium\CreditCards.UITests\obj\Debug\CreditCar
 C:\Users\Slavik\source\repos\ps-Selenium\CreditCards.UITests\obj\Debug\CreditCards.UITests.dll
 C:\Users\Slavik\source\repos\ps-Selenium\CreditCards.UITests\obj\Debug\CreditCards.UITests.pdb
 C:\Users\Slavik\source\repos\ps-Selenium\CreditCards.UITests\obj\Debug\CreditCards.UITests.csprojAssemblyReference.cache
-C:\Users\Slavik\source\repos\ps-Selenium\CreditCards.UITests\bin\Debug\CreditCards.UITests.dll.config
