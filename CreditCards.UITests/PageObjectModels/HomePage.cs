@@ -67,11 +67,5 @@ namespace CreditCards.UITests.PageObjectModels
                     new WebDriverWait(Driver, TimeSpan.FromSeconds(11));
                             wait.Until(ExpectedConditions.ElementToBeClickable(By.LinkText("Easy: Apply Now!")));
         }
-
-        public void NavigateTo()
-        {
-            Driver.Navigate().GoToUrl(PageUrl);
-            EnsurePageLoaded();
-        }
     }
 }

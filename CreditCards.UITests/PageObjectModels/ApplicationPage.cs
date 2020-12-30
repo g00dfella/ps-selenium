@@ -56,11 +56,5 @@ namespace CreditCards.UITests.PageObjectModels
             Driver.FindElement(By.Id("SubmitApplication")).Click();
             return new ApplicationCompletePage(Driver);
         }
-
-        public void NavigateTo()
-            {
-                Driver.Navigate().GoToUrl(PageUrl);
-                EnsurePageLoaded();
-            }
     }
 }

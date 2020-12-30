@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BKG3Rl8BE386MHTgClbP1zhMl75Fa2WdhLhifY8VS9T6xwnJzJ6RsHL/sNjCmW1VutWm7G/g3+Z2wXBh/PzWRQ==",
+  "dgSpecHash": "he2NTAvHbfjh+7FWjC4w5c/bUB8OIgXo9rrSfWqxConbnqtoEyDOy9FcpLgVi0DoCbLAvD/Y9z6ie4JsUhofDg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Slavik\\source\\repos\\ps-Selenium\\CreditCards\\CreditCards.csproj",
+  "projectFilePath": "C:\\Users\\Slavik\\Source\\Repos\\ps-selenium\\CreditCards\\CreditCards.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Slavik\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\Slavik\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",

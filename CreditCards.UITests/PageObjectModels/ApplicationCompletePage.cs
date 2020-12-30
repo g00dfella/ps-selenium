@@ -26,11 +26,5 @@ namespace CreditCards.UITests.PageObjectModels
         public string RelationshipStatus => Driver.FindElement(By.Id("RelationshipStatus")).Text;
 
         public string BusinessSource => Driver.FindElement(By.Id("BusinessSource")).Text;
-
-        public void NavigateTo()
-        {
-            Driver.Navigate().GoToUrl(PageUrl);
-            EnsurePageLoaded();
-        }
     }
 }
