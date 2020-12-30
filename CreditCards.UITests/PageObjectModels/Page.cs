@@ -20,6 +20,7 @@ namespace CreditCards.UITests.PageObjectModels
         public void EnsurePageLoaded(bool onlyCheckUrlStartsWithExpectedText = true)
         {
             bool urlIsCorrect;
+
             if (onlyCheckUrlStartsWithExpectedText)
             {
                 urlIsCorrect = Driver.Url.StartsWith(PageUrl);
@@ -30,6 +31,7 @@ namespace CreditCards.UITests.PageObjectModels
             }
 
             bool pageHasLoaded = urlIsCorrect && (Driver.Title == PageTitle);
+
             if (!pageHasLoaded)
             {
                 throw new Exception($"Failed to load page. Page URL = '{Driver.Url}' Page Source: \r\n {Driver.PageSource}");
