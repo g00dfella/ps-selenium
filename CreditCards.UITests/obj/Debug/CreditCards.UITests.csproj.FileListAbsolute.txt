@@ -76,6 +76,7 @@ C:\Users\Slavik\source\repos\ps-Selenium\CreditCards.UITests\bin\Debug\WebDriver
 C:\Users\Slavik\source\repos\ps-Selenium\CreditCards.UITests\bin\Debug\xunit.assert.xml
 C:\Users\Slavik\source\repos\ps-Selenium\CreditCards.UITests\bin\Debug\xunit.core.xml
 C:\Users\Slavik\source\repos\ps-Selenium\CreditCards.UITests\bin\Debug\xunit.execution.desktop.xml
+C:\Users\Slavik\source\repos\ps-Selenium\CreditCards.UITests\obj\Debug\CreditCards.UITests.csprojAssemblyReference.cache
 C:\Users\Slavik\source\repos\ps-Selenium\CreditCards.UITests\obj\Debug\CreditCards.UITests.csproj.CoreCompileInputs.cache
 C:\Users\Slavik\source\repos\ps-Selenium\CreditCards.UITests\obj\Debug\CreditCards.UITests.csproj.CopyComplete
 C:\Users\Slavik\source\repos\ps-Selenium\CreditCards.UITests\obj\Debug\CreditCards.UITests.dll

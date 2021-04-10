@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Slavik\\Source\\Repos\\ps-selenium\\CreditCards\\CreditCards.csproj": {}
+    "C:\\Users\\Slavik\\source\\repos\\ps-Selenium\\CreditCards\\CreditCards.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Slavik\\Source\\Repos\\ps-selenium\\CreditCards\\CreditCards.csproj": {
+    "C:\\Users\\Slavik\\source\\repos\\ps-Selenium\\CreditCards\\CreditCards.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Slavik\\Source\\Repos\\ps-selenium\\CreditCards\\CreditCards.csproj",
+        "projectUniqueName": "C:\\Users\\Slavik\\source\\repos\\ps-Selenium\\CreditCards\\CreditCards.csproj",
         "projectName": "CreditCards",
-        "projectPath": "C:\\Users\\Slavik\\Source\\Repos\\ps-selenium\\CreditCards\\CreditCards.csproj",
+        "projectPath": "C:\\Users\\Slavik\\source\\repos\\ps-Selenium\\CreditCards\\CreditCards.csproj",
         "packagesPath": "C:\\Users\\Slavik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Slavik\\Source\\Repos\\ps-selenium\\CreditCards\\obj\\",
+        "outputPath": "C:\\Users\\Slavik\\source\\repos\\ps-Selenium\\CreditCards\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Slavik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,6 +56,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[89.0.4389.2300, )"
             }
           },
           "imports": [
